@@ -1,8 +1,11 @@
 .team-section{
     background-color: #F5F4FA;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    @media screen and (max-width: 1199px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
+
 .team__title{
 font-weight: 700;
 font-size: 28px;

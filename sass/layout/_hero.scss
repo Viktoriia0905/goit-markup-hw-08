@@ -61,7 +61,7 @@
         padding: 118px 204px;
     }
     @include desk {
-        padding: 200px 300px 200px 300px;
+        padding: 200px 250px 200px 250px;
         height: 600px;
     }
 }
@@ -79,7 +79,7 @@ color:var(--first-title-color);
     @include desk {
     font-size: 44px;
     line-height: 1.36;
-    width: 700px;
+    width: 696px;
     }
 }
 

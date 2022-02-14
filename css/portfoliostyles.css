@@ -263,8 +263,6 @@ button {
 
 .menu-open-btn {
   margin-left: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
   cursor: pointer;
   background-color: #fff;
   border: none;
@@ -392,9 +390,11 @@ button {
   color: var(--accent-color);
 }
 
-.hero {
-  padding-top: 60px;
-  padding-bottom: 60px;
+@media screen and (max-width: 1199px) {
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .btn-list {
@@ -567,7 +567,7 @@ button {
   letter-spacing: 0.03em;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer__logo {
     display: block;
     text-align: center;
@@ -593,7 +593,7 @@ button {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .footer-list {
     text-align: center;
   }

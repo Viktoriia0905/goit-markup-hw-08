@@ -263,8 +263,6 @@ button {
 
 .menu-open-btn {
   margin-left: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
   cursor: pointer;
   background-color: #fff;
   border: none;
@@ -443,7 +441,7 @@ button {
 
 @media screen and (min-width: 1200px) {
   .hero__container {
-    padding: 200px 300px 200px 300px;
+    padding: 200px 250px 200px 250px;
     height: 600px;
   }
 }
